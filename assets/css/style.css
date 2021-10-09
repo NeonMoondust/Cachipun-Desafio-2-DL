@@ -1,0 +1,110 @@
+/*Normalize------*/
+body,h1,h2,h3,h4,h5,p,section,article,div,nav,footer,ul,li,ol{margin: 0;padding: 0;}
+/*Normalize------*/
+nav{
+    border-bottom: solid #729E2E 5px;
+    box-shadow: 0px 5px 0 #507C0C;
+}
+body{
+    background-color: #35313C;
+    font-family: 'Orbitron', sans-serif;;
+}
+.main-logo{
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    margin-left: 2rem;
+}
+
+h1{
+    display: inline-block;
+    width: 70%;
+    color: #fff;
+}
+.card-score{
+    margin-top: 3.5rem;
+    background-color: #1B1C20;
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    color: #729E2E;
+    border: #729E2E solid 2px;
+}
+.card-jugadores{
+    margin-top: 4.5rem;
+    background-color: #1B1C20;
+    color: #fff;
+    border: #729E2E solid 2px;
+}
+.div-imgJ{
+    margin: 2.rem;
+    
+}
+.menu-jugable{
+    margin-top: 2rem;
+    background-color: #1B1C20;
+    color: #729E2E;
+    border: #729E2E solid 2px;
+}
+h3{
+    margin: 2rem auto;
+}
+
+button {
+    margin: 1.7rem .2rem 0px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    background-color:#729E2E;
+    color: #fff;
+    padding: 10px;
+    width: 125px;
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    box-shadow: 0 5px 15px #193047;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background: #fff;
+    box-shadow: 0px 2px 10px 5px #1abc9c;
+    color: #000;
+  }
+  
+  button:after {
+    content: "";
+    background: #35313C;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+  .button:focus { outline:0; }
+
+.jugadas{
+    margin: 2.5rem 2rem;
+}
+.vs{
+    font-weight: 700;
+    margin: 3rem auto;
+    font-size: 100px;
+}
+footer{
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    border-top: solid #729E2E 5px;
+    box-shadow: 0px -5px 0 #507C0C;
+    font-weight: 700;
+}
